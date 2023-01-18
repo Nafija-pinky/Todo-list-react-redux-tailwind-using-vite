@@ -1,12 +1,11 @@
-
+import Todos from './components/Todos'
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-     <h1 className="text-3xl font-bold underline">
-      Hello world! sumon
-    </h1>
+   
+    <Todos/>
     </div>
   )
 }
